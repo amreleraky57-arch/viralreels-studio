@@ -10,7 +10,7 @@ const stats = [
     sub: tx("Across all platforms", "على جميع المنصات"),
   },
   {
-    value: 50,
+    value: 30,
     suffix: "+",
     label: tx("Brands Scaled", "براند نما"),
     sub: tx("From startups to giants", "من ستارت أب لشركات كبرى"),
