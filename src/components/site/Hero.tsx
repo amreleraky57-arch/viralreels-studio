@@ -58,13 +58,16 @@ export function Hero() {
         >
           {lang === "en" ? (
             <>
-              WE CREATE
+              WE Don't
               <br />
-              <span className="text-gradient-brand">CONTENT</span>
+              <span className="text-gradient-brand">Shoot</span>
               <br />
-              PEOPLE
+              Reels
               <br />
-              <span className="text-gradient-brand">REMEMBER</span>
+              <span className="text-gradient-brand">WE TELL
+                WE TELL
+                STORIES
+              </span>
             </>
           ) : (
             <>

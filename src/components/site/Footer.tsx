@@ -34,8 +34,8 @@ export function Footer() {
         <div className="flex items-center gap-2.5 md:justify-end">
           {[
             { href: WA, icon: <MessageCircle size={15} />, label: "WhatsApp" },
-            { href: "https://instagram.com", icon: <Instagram size={15} />, label: "Instagram" },
-            { href: "https://tiktok.com", icon: <Music2 size={15} />, label: "TikTok" },
+            { href: "https://www.instagram.com/reelscretors?igsh=MXZ4ZXVxcGllZjBrbw==", icon: <Instagram size={15} />, label: "Instagram" },
+            { href: "https://vm.tiktok.com/ZS92Qqx8MPAQt-S73er/", icon: <Music2 size={15} />, label: "TikTok" },
           ].map((s) => (
             <a
               key={s.label}

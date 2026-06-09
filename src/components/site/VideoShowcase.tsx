@@ -7,42 +7,42 @@ type Reel = { id: string; title: { en: string; ar: string } };
 
 const sections = [
   {
-    key: "storytelling",
-    label: tx("Storytelling", "قصص البراند"),
+    key: "",
+    label: tx("", ""),
     desc: tx(
-      "Cinematic brand stories that build emotion, trust, and recall.",
-      "قصص براند سينمائية تبني المشاعر والثقة والذاكرة.",
+      "",
+      "",
     ),
     reels: [
-      { id: "1QzrSdETowqMbKEfw1N0ImEnBy6uFCRzb", title: tx("Heritage in Motion", "هوية متحركة") },
-      { id: "1MxDNKGrGTtmDotw-nRVV2fbGUgocBUsh", title: tx("Founder Story", "قصة المؤسس") },
-      { id: "1sQ4N1ONn7UfqhKjMsDDqlGsp8UfZkdg-", title: tx("Brand in 30s", "البراند في 30 ثانية") },
+      { id: "1QzrSdETowqMbKEfw1N0ImEnBy6uFCRzb", title: tx("  ", " ") },
+      { id: "1MxDNKGrGTtmDotw-nRVV2fbGUgocBUsh", title: tx(" ", " ") },
+      { id: "1sQ4N1ONn7UfqhKjMsDDqlGsp8UfZkdg-", title: tx("", "") },
     ],
   },
   {
-    key: "skits",
-    label: tx("Skits", "سكتشات"),
+    key: "",
+    label: tx("", ""),
     desc: tx(
-      "Scroll-stopping comedic and scripted skits engineered to go viral.",
-      "سكتشات كوميدية ومكتوبة توقف السكرول ومصممة لتنتشر.",
+      "",
+      " ",
     ),
     reels: [
-      { id: "15nzbKejZgZIe0P0RU4v5jZ_2-4f2C_Sv", title: tx("Hook → Story → Sell", "هوك ← قصة ← مبيعات") },
-      { id: "1ARpYLbeeZzID3REPQHtwLt7raJ0S8eV8", title: tx("Algorithm Bait", "صيد الخوارزمية") },
-      { id: "1Bqcffm903fiKJ13nHbmDEwF-BfBf0rtN", title: tx("Cinematic Cutdown", "مونتاج سينمائي") },
+      { id: "15nzbKejZgZIe0P0RU4v5jZ_2-4f2C_Sv", title: tx(" ", "") },
+      { id: "1ARpYLbeeZzID3REPQHtwLt7raJ0S8eV8", title: tx("", " ") },
+      { id: "1Bqcffm903fiKJ13nHbmDEwF-BfBf0rtN", title: tx(" ", " ") },
     ],
   },
   {
-    key: "voxpop",
-    label: tx("Vox Pop", "فوكس بوب"),
+    key: "",
+    label: tx(" ", " "),
     desc: tx(
-      "Real voices, real people, real reactions — the most trusted format on social.",
+      "",
       "أصوات حقيقية، ناس حقيقيين، ردود فعل حقيقية.",
     ),
     reels: [
-      { id: "1HfMuvcV-pZKFb_LCIvGPH_BYQZnpIZol", title: tx("Creator-led Launch", "إطلاق بصوت الصنّاع") },
-      { id: "19TlSjDOXeAvlg7zJlFI88ntSdxW7W-V1", title: tx("Real Voices, Real Sales", "أصوات حقيقية، مبيعات حقيقية") },
-      { id: "1eQAmLyHfaBIDcHdy8vbNVyM-6g_W9z9g", title: tx("Authentic Sells", "الأصالة بتبيع") },
+      { id: "1HfMuvcV-pZKFb_LCIvGPH_BYQZnpIZol", title: tx(" ", "") },
+      { id: "19TlSjDOXeAvlg7zJlFI88ntSdxW7W-V1", title: tx("", "") },
+      { id: "1eQAmLyHfaBIDcHdy8vbNVyM-6g_W9z9g", title: tx(" ", " ") },
     ],
   },
 ];
@@ -163,7 +163,7 @@ export function VideoShowcase() {
             <div key={sec.key} className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
               <div className="lg:col-span-4">
                 <div className="lg:sticky lg:top-32">
-                  <p className="label-tag mb-3 text-white/30">{t(tx("Format", "الفورمات"))}</p>
+                  <p className="label-tag mb-3 text-white/30">{t(tx("", ""))}</p>
                   <h3 className="font-display text-[clamp(2rem,4vw,3rem)] font-700 leading-none">
                     <span className="text-gradient-brand">{t(sec.label)}</span>
                   </h3>
