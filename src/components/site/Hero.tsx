@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { motion, useAnimationControls } from "framer-motion";
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 import { useLang, tx } from "@/lib/i18n";
@@ -29,20 +29,18 @@ export function Hero() {
   const { t, lang } = useLang();
   const isRtl = lang === "ar";
   
-  // State to control marquee direction
-  const [isReversed, setIsReversed] = useState(false);
   const controls = useAnimationControls();
 
   useEffect(() => {
     controls.start({
-      x: isReversed ? ["-50%", "0%"] : ["0%", "-50%"],
+      x: ["0%", "-50%"],
       transition: {
         duration: 45,
         repeat: Infinity,
         ease: "linear",
       },
     });
-  }, [isReversed, controls]);
+  }, [controls]);
 
   const scrollTo = (id: string) =>
     document.getElementById(id)?.scrollIntoView({
