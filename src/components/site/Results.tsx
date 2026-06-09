@@ -48,7 +48,6 @@ export function Results() {
 
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-14 max-w-2xl">
-          <p className="label-tag mb-4">{t(tx("Case Studies", "حالات نجاح"))}</p>
           <h2 className="font-display text-[clamp(2rem,5vw,3.5rem)] font-700 text-white">
             {t(tx("Results that", "نتائج"))}
             <br />

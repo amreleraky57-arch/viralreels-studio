@@ -6,7 +6,6 @@ import { VideoShowcase } from "@/components/site/VideoShowcase";
 import { Stats } from "@/components/site/Stats";
 import { Results } from "@/components/site/Results";
 import { About } from "@/components/site/About";
-import { UGC } from "@/components/site/UGC";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
@@ -22,7 +21,6 @@ export default function App() {
           <Services />
           <VideoShowcase />
           <Results />
-          <UGC />
           <About />
           <CTA />
         </main>
