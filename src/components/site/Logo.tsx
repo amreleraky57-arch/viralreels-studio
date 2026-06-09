@@ -57,7 +57,7 @@ export function Logo({ className = "", size = 36 }: Props) {
           letterSpacing: "-0.02em",
         }}
       >
-        NM Media
+        Viral Reel
       </span>
     </div>
   );
