@@ -64,7 +64,7 @@ export function Hero() {
               <br />
               Reels
               <br />
-              <span className="text-gradient-brand">WE TELL
+              <span className="text-gradient-brand">
                 WE TELL
                 STORIES
               </span>
