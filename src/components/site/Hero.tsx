@@ -13,6 +13,7 @@ const fadeUp = {
 const logos = [
   "/ALADIEN.png",
   "/ASMAK.png",
+  "/qasr elmandy.png",
   "/BIG BELLY.png",
   "/Crazy burger.png",
   "/power burger.png",
